@@ -8,6 +8,9 @@ S.list()
         S.list()
           .title('Pages Content')
           .items([
+            S.documentTypeListItem('page')
+              .title('Page Builder'),
+
             S.listItem()
               .title('Home')
               .child(
